@@ -1,6 +1,11 @@
-#CAEN
-Host wuqiuche
-	HostName login.engin.umich.edu
-	User wuqiuche
-	Compression yes
+# UMich GitLab
+Host gitlab
+    HostName gitlab.com
+    User git
+    IdentifyFile ~/.ssh/wuqiuche_rsa
 
+# CAEN
+Host wuqiuche
+    HostName login.engin.umich.edu
+    User wuqiuche
+    Compression yes
